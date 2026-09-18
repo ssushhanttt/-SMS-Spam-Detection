@@ -4,8 +4,6 @@ SMS Spam Detection - Interactive Demo Application
 A professional Streamlit-based web application for SMS spam classification
 with real-time predictions, model selection, and comprehensive visualizations.
 
-Author: Tharun Ponnam
-GitHub: @tharun-ship-it
 """
 
 import sys
@@ -24,7 +22,7 @@ import string
 # Page Configuration
 # ============================================================
 st.set_page_config(
-    page_title="SMS Spam Detection | Tharun Ponnam",
+    page_title="SMS Spam Detection ",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -60,7 +58,7 @@ st.markdown("""
         text-align: center;
     }
     
-    .author-info {
+    .-info {
         background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%);
         padding: 1.2rem;
         border-radius: 12px;
@@ -68,17 +66,17 @@ st.markdown("""
         margin-bottom: 1.5rem;
     }
     
-    .author-info h3 {
+    .-info h3 {
         margin: 0 0 0.5rem 0;
         font-size: 1.1rem;
     }
     
-    .author-info p {
+    .-info p {
         margin: 0.3rem 0;
         font-size: 0.9rem;
     }
     
-    .author-info a {
+    .-info a {
         color: #fde047;
         text-decoration: none;
     }
@@ -411,12 +409,8 @@ with st.sidebar:
     st.markdown("---")
     
     st.markdown("""
-    <div class="author-info">
-        <h3>👤 Author</h3>
-        <p><strong>Tharun Ponnam</strong></p>
-        <p>🔗 <a href="https://github.com/tharun-ship-it" target="_blank">@tharun-ship-it</a></p>
-        <p>📧 tharunponnam007@gmail.com</p>
-    </div>
+    
+    
     """, unsafe_allow_html=True)
     
     st.markdown("### 📊 Dataset")
